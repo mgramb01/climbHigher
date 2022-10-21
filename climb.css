@@ -1,7 +1,6 @@
 @charset "utf-8";
 h1 {
   font-size: 80px;
-  background-color: #4C4C4C;
   background-size: 30px 10px;
 }
 p {
@@ -10,7 +9,7 @@ p {
 }
 
 .container {
-  display:flex
+  display: flex;
 }
 
 img {
@@ -18,5 +17,6 @@ img {
 }
 
 video {
-
+   float: right;
+   margin: -7%;
 }
