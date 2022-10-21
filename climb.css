@@ -1,0 +1,22 @@
+@charset "utf-8";
+h1 {
+  font-size: 80px;
+  background-color: #4C4C4C;
+  background-size: 30px 10px;
+}
+p {
+  font-family: "Lucida Console", "Courier New", monospace;
+  text-align: right;
+}
+
+.container {
+  display:flex
+}
+
+img {
+  border-radius: 50%;
+}
+
+video {
+
+}
