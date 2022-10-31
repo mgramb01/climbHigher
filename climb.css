@@ -6,6 +6,7 @@ h1 {
 p {
   font-family: "Lucida Console", "Courier New", monospace;
   text-align: right;
+  color: white;
 }
 
 .container {
@@ -13,10 +14,16 @@ p {
 }
 
 img {
-  border-radius: 50%;
+  width: 725px;
+  height: 500px;
+  padding-top: 100px;
 }
 
 video {
    float: right;
    margin: -7%;
+}
+
+.textbelowimg {
+  float: left;
 }
