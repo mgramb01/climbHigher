@@ -1,29 +1,55 @@
-@charset "utf-8";
+body {
+    background-color: #404040;
+}
+
 h1 {
-  font-size: 80px;
-  background-size: 30px 10px;
-}
-p {
-  font-family: "Lucida Console", "Courier New", monospace;
-  text-align: right;
-  color: white;
+    color: #F2762E;
+    font-size: 80px;
+    font-family: "Lucida Console", "Courier New", monospace;
 }
 
-.container {
-  display: flex;
+h5 {
+    color: white;
+    font-family: 'Merriweather', serif;
 }
 
-img {
-  width: 725px;
-  height: 500px;
-  padding-top: 100px;
+.top-container {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
-video {
-   float: right;
-   margin: -7%;
+.product-img {
+    width: 500px;
+    padding-top: 30px;
+    padding-left: 70px;
 }
 
-.textbelowimg {
-  float: left;
+.product-description {
+    color: white;
+    text-align: center;
+    height: 100px;
+    width: 500px;
+    line-height: 2;
+    display: inline-block;
+    float: right;
+    padding-right: 70px;
+}
+
+.product-video {
+    height: 500px;
+    width: 500px;
+    display: inline-block;
+    float: right;
+    padding-right: 70px;
+}
+
+.video-description {
+    margin-top: 100px;
+    height: 300px;
+    width: 500px;
+    color: white;
+    text-align: center;
+    line-height: 2;
+    padding-left: 50px;
 }
